@@ -1,0 +1,94 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    title #{htmlWebpackPlugin.options.title}
+    // Bootstrap core CSS
+    link(href='vendor/bootstrap/css/bootstrap.min.css', rel='stylesheet')
+    // Custom styles for this template
+    link(href='css/small-business.css', rel='stylesheet')
+  body(style='padding-top: 50px')
+    .container
+    // Navigation
+    nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top
+        a.navbar-brand(href='#') GrwH
+        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarResponsive.collapse.navbar-collapse
+          ul.navbar-nav.ml-auto
+            li.nav-item.active
+              a.nav-link(href='#')
+                | Home
+                span.sr-only (current)
+            li.nav-item
+              a.nav-link(href='#') About
+            li.nav-2item
+              a.nav-link(href='#') Vacatures
+            li.nav-2item
+              a.nav-link(href='#') Nieuwsbrief
+            li.nav-item
+              a.nav-link(href='#') Contact
+            li.nav-item
+              a.nav-link(href='#') Français
+    // Page Content
+    .container
+      // Heading Row
+      .row.align-items-center.my-5
+        .col-lg-7
+          img.img-fluid.rounded.mb-4.mb-lg-0(src='./GRWH94.png', alt='foto Grondwettelijk Hof')
+          // img.img-fluid.rounded.mb-4.mb-lg-0(src='http://placehold.it/900x400', alt='')
+        // /.col-lg-8
+        .col-lg-5
+          h1.font-weight-light Grondwettelijk Hof
+          p
+            | Het Grondwettelijk Hof is een bijzonder rechtscollege in België dat toeziet op de naleving van de bevoegdheidsverdeling tussen de federale Staat, de gemeenschappen en de gewesten enerzijds en de naleving van de grondrechten anderzijds.
+          a.btn.btn-primary(href='#') Call to Action!
+        // /.col-md-4
+        // /.row
+        // Call to Action Well
+        .card.text-white.bg-secondary.my-5.py-4.text-center
+          .card-body
+            p.text-white.m-0
+              | Het Grondwettelijk Hof is een bijzonder rechtscollege in België dat toeziet op de naleving van de bevoegdheidsverdeling tussen de federale Staat, de gemeenschappen en de gewesten enerzijds en de naleving van de grondrechten anderzijds.
+        // Content Row
+        .row
+          .col-md-4.mb-5
+            .card.h-100
+              .card-body
+                h2.card-title Recente uitspraken
+                p.card-text
+                  | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.
+              .card-footer
+                a.btn.btn-primary.btn-sm(href='#') More Info
+          // /.col-md-4
+          .col-md-4.mb-5
+            .card.h-100
+              .card-body
+                h2.card-title Het Hof
+                p.card-text
+                  | Het Grondwettelijk Hof bestaat uit twaalf rechters, die voor het leven benoemd zijn: zes van de Nederlandse en zes van de Franse taalgroep. Deze worden benoemd door de Koning uit een lijst met twee kandidaten, beurtelings door de Kamer van volksvertegenwoordigers en de Senaat voorgedragen met een meerderheid van minstens twee derden van de stemmen van de aanwezige leden. Zes van de rechters zijn oud-parlementsleden (politici), de andere zes zijn juristen (hoogleraar of (buiten)gewoon hoogleraar in de rechten aan een Belgische universiteit, raadsheer uit het Hof van Cassatie, lid van het openbaar ministerie bij het Hof van Cassatie, staatsraad, lid van het auditoraat bij de Raad van State of referendaris bij het Grondwettelijk Hof).
+              .card-footer
+                a.btn.btn-primary.btn-sm(href='#') More Info
+          // /.col-md-4
+          .col-md-4.mb-5
+            .card.h-100
+              .card-body
+                h2.card-title Mededelingen
+                p.card-text
+                  | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.
+              .card-footer
+                a.btn.btn-primary.btn-sm(href='#') More Info
+          // /.col-md-4
+          // /.row
+          // /.container
+          // Footer
+          footer.py-5.bg-dark
+            .container
+              p.m-0.text-center.text-white Copyright © Your Website 2019
+            // /.container
+            // Bootstrap core JavaScript
+            script(src='vendor/jquery/jquery.min.js')
+            script(src='vendor/bootstrap/js/bootstrap.bundle.min.js')
